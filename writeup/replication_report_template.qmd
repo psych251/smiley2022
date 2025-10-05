@@ -1,0 +1,147 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+title: "Replication of Study 1 by Smiley & Fisher (2022, Psychological
+Science)" author: "Sarah H. Wu (sarwu\@stanford.edu)" date:
+"`r format(Sys.time(), '%B %d, %Y')`" format: html: toc: true toc_depth:
+3 ---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+### A short justification for your choice of experiment in terms of your research interests or research program (1 paragraph). This justification should tell us why you chose this particular result.
+
+Despite the idiosyncracies of various technological developments, there
+is a fundamental human fear of new technologies, from the radio to the
+television to the smartphone. Because my research investigates people's
+perceptions of digital media, I found this paper relevant because it
+probes a potential mechanism underlying cycles of tech panic:
+endorsement of the status quo. In their Study 1, Smiley and Fisher
+(2022) experimentally manipulated participants' age at the time of an
+obscure technology's invention (15 years before vs. after the invention
+of the technology) and measured participants' self-reported perceptions
+of the technology's societal impact. Smiley and Fisher (2022) found that
+participants in the born-after condition evaluated the technology more
+positively than those in the born-before condition.
+
+### A description of the stimuli and procedures that will be required to
+conduct this experiment, and what the challenges will be (1-2
+paragraphs).
+
+The stimuli for this experiment are descriptions of an obscure technology called aerogel, "a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure." The authors selected this technology because it was possible to manipulate its perceived age without too many participants knowing its actual date of invention. In the born-before condition, participants were told that aerogel was invented 15 years after they had been born, with the exact year dynamically populated based on the participant's birth year. (For example, a participant born in 2000 would read that aerogel was invented in 2015.) In the born-after condition, participants were told that aerogel had been invented 15 years prior to their birth. (So a participant born in 2000 would see that aerogel was invented in 1985.)
+
+A link to the repository and to the original paper (as hosted in your
+repo). The goal is that we should be able to click on these links and
+review that your repo is formatted right and look at the original paper.
+
+## Methods
+
+### Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%,
+95% power to detect that effect size. Considerations of feasibility for
+selecting planned sample size.
+
+### Planned Sample
+
+Planned sample size and/or termination rule, sampling frame, known
+demographics if any, preselection rules if any.
+
+### Materials
+
+All materials - can quote directly from original article - just put the
+text in quotations and note that this was followed precisely. Or, quote
+directly and just point out exceptions to what was described in the
+original article.
+
+### Procedure
+
+Can quote directly from original article - just put the text in
+quotations and note that this was followed precisely. Or, quote directly
+and just point out exceptions to what was described in the original
+article.
+
+### Analysis Plan
+
+Can also quote directly, though it is less often spelled out effectively
+for an analysis strategy section. The key is to report an analysis
+strategy that is as close to the original - data cleaning rules, data
+exclusion rules, covariates, etc. - as possible.
+
+**Clarify key analysis of interest here** You can also pre-specify
+additional analyses you plan to do.
+
+### Differences from Original Study
+
+Explicitly describe known differences in sample, setting, procedure, and
+analysis plan from original study. The goal, of course, is to minimize
+those differences, but differences will inevitably occur. Also, note
+whether such differences are anticipated to make a difference based on
+claims in the original article or subsequent published research on the
+conditions for obtaining the effect.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data
+collection.
+
+#### Actual Sample
+
+Sample size, demographics, data exclusions based on rules spelled out in
+analysis plan
+
+#### Differences from pre-data collection methods plan
+
+Any differences from what was described as the original plan, or “none”.
+
+## Results
+
+### Data preparation
+
+Data preparation following the analysis plan.
+
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.
+
+*Side-by-side graph with original graph is ideal here*
+
+### Exploratory analyses
+
+Any follow-up analyses desired (not required).
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary
+result from the confirmatory analysis and the assessment of whether it
+replicated, partially replicated, or failed to replicate the original
+result.
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from
+follow-up exploratory analysis, (b) assessment of the meaning of the
+replication (or not) - e.g., for a failure to replicate, are the
+differences between original and present study ones that definitely,
+plausibly, or are unlikely to have been moderators of the result, and
+(c) discussion of any objections or challenges raised by the current and
+original authors about the replication attempt. None of these need to be
+long.
