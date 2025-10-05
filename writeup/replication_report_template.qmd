@@ -2,8 +2,9 @@
 editor: 
   markdown: 
     wrap: 72
-  format: html: 
-    toc: true toc_depth: 3
+  format: html 
+    toc: true 
+    toc_depth: 3
 ---
 
 title: "Replication of Study 1 by Smiley & Fisher (2022, Psychological
