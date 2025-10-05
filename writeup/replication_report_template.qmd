@@ -15,12 +15,11 @@ Science)" author: "Sarah H. Wu (sarwu\@stanford.edu)" date:
 
 ### A short justification for your choice of experiment in terms of your research interests or research program (1 paragraph). This justification should tell us why you chose this particular result.
 
-Despite the idiosyncracies of various technological developments, there
-is a fundamental human fear of new technologies, from the radio to the
-television to the smartphone. Because my research investigates people's
-perceptions of digital media, I found this paper relevant because it
+Despite the idiosyncracies of individual technological developments, there
+is a fundamental human panic about new technologies. In the 1800s, novels were accused of corrupting the minds of youth and housewives, in the 1940s "television addiction" was coined, and in current discourse smartphones and social media are the supposed culprits behind adolescents' declining mental health. (See https://pessimistsarchive.org/ for more examples.) Because my research investigates people's
+perceptions of digital media, I found Smiley & Fisher (2022) relevant because it
 probes a potential mechanism underlying cycles of tech panic:
-endorsement of the status quo. In their Study 1, Smiley and Fisher
+status quo bias, which has been documented across domains and developmental stages. In their Study 1, Smiley and Fisher
 (2022) experimentally manipulated participants' age at the time of an
 obscure technology's invention (15 years before vs. after the invention
 of the technology) and measured participants' self-reported perceptions
@@ -32,11 +31,11 @@ positively than those in the born-before condition.
 conduct this experiment, and what the challenges will be (1-2
 paragraphs).
 
-The stimuli for this experiment are descriptions of an obscure technology called aerogel, "a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure." The authors selected this technology because it was possible to manipulate its perceived age without too many participants knowing its actual date of invention. In the born-before condition, participants were told that aerogel was invented 15 years after they had been born, with the exact year dynamically populated based on the participant's birth year. (For example, a participant born in 2000 would read that aerogel was invented in 2015.) In the born-after condition, participants were told that aerogel had been invented 15 years prior to their birth. (So a participant born in 2000 would see that aerogel was invented in 1985.)
+The stimuli for this experiment are descriptions of an obscure technology called aerogel, "a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure." The authors selected this technology because it was possible to manipulate its perceived age without too many participants knowing its actual date of invention. In the born-before condition, participants were told that aerogel was invented 15 years after they had been born, with the exact year dynamically populated based on the participant's birth year. (For example, a participant born in 2000 would read that aerogel was invented in 2015.) In the born-after condition, participants were told that aerogel had been invented 15 years prior to their birth. (So a participant born in 2000 would see that aerogel was invented in 1985.) After reading about aerogel, participants were asked, "How would you describe the impact of aerogel on society?" and reported their impression on a 7-point Likert scale from -3 (very negative) to 3 (very positive). Then, they answered a manipulation check question and a previous knowledge question.
 
-A link to the repository and to the original paper (as hosted in your
-repo). The goal is that we should be able to click on these links and
-review that your repo is formatted right and look at the original paper.
+The experiment seems relatively straightforward to replicate. However, as with any online study, it is possible that participants might look up details about the stimuli during the study, which could render the manipulation ineffective. Because aerogel is a real invention, people could easily find its actual date of invention.
+
+Original paper here: https://github.com/psych251/smiley2022/blob/main/original_paper/smiley-fisher-2022-the-golden-age-is-behind-us-how-the-status-quo-impacts-the-evaluation-of-technology.pdf
 
 ## Methods
 
