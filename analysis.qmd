@@ -1,0 +1,71 @@
+```{r}
+### Install (if not already installed) and load all packages
+if(!require("psych")) {install.packages("psych"); require("psych")}
+if(!require("tidyverse")) {install.packages("tidyverse"); require("tidyverse")}
+if(!require("effsize")) {install.packages("effsize"); require("effsize")}
+if(!require("stats")) {install.packages("stats"); require("stats")}
+if(!require("ggpubr")) {install.packages("ggpubr"); require("ggpubr")}
+if(!require("lmerTest")) {install.packages("lmerTest"); require("lmerTest")}
+if(!require("inflection")) {install.packages("inflection"); require("inflection")}
+if(!require("sjPlot")) {install.packages("sjPlot"); require("sjPlot")}
+if(!require("svglite")) {install.packages("svglite"); require("svglite")}
+```
+
+
+```{r}
+#### Experiment 1 - Aerogel (S1) #### ------------------------------------------------------
+s1.df <- read.csv(file = "TechAgeS1.csv")
+
+### DATA WRANGLING & CLEANING ###
+
+## Participant Info
+s1.df$Gender <- factor(s1.df$Gender,labels=c("Male","Female","Other"))
+names(s1.df)[1] <- "Subject"
+
+### END DATA WRANGLING & CLEANING ###
+
+## Demographic information
+table(s1.df$Gender)
+mean(s1.df$Age)
+sd(s1.df$Age)
+
+### Analysis WITHOUT exclusions ###
+## Descriptive statistics
+s1.cond.difs <- s1.df %>% group_by(Condition) %>% summarise(EVAL = mean(Eval), EVAL_SD = sd(Eval))
+s1.cond.difs
+
+## T-test and Cohen's d
+## Condition refers to born after/before invention (experimentally manipulated)
+t.test(Eval ~ Condition, var.equal=TRUE, data=s1.df)
+effsize::cohen.d(Eval ~ Condition, data = s1.df)
+
+### END Analysis WITHOUT exclusions
+
+### Analysis WITH exclusions ###
+## Exclusion
+table(s1.df$Check) # n = 39
+table(s1.df$Knowledge) # n = 33
+# Exclude participants who failed manipulation check or knew what aerogel was
+s1.df.f <- s1.df %>% filter(Check == "Pass" & Knowledge > 1)
+
+## Descriptive statistics
+s1.cond.difs <- s1.df.f %>% group_by(Condition) %>% summarise(EVAL = mean(Eval), EVAL_SD = sd(Eval))
+s1.cond.difs
+
+## T-test and Cohen's d 
+t.test(Eval ~ Condition, var.equal=TRUE, data=s1.df.f)
+effsize::cohen.d(Eval ~ Condition, data = s1.df.f)
+
+## Age and Evaluation correlation
+cor.test(s1.df.f$Age, s1.df.f$Eval)
+
+## Make Condition.Num numeric so it can be scaled in lm
+s1.df.f$Condition.Num <- rep(NA, length(s1.df.f$Condition))
+s1.df.f$Condition.Num[s1.df.f$Condition=="Born After"] <- 0
+s1.df.f$Condition.Num[s1.df.f$Condition=="Born Before"] <- 1
+
+## Age and Condition multilevel model
+s1.lm.age <- lm(scale(Eval) ~ scale(Age) + scale(Condition.Num), data = s1.df.f)
+summary(s1.lm.age)
+```
+

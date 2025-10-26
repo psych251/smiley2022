@@ -1,23 +1,24 @@
 ---
+title: "Replication of Study 1 by Smiley & Fisher (2022, Psychological Science)"
+author: 
+  name: "Sarah H. Wu (sarwu@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format: 
+  html: 
+    toc: true 
+    toc_depth: 3
 editor: 
   markdown: 
     wrap: 72
-  format: html 
-    toc: true 
-    toc_depth: 3
 ---
 
-title: "Replication of Study 1 by Smiley & Fisher (2022, Psychological
-Science)" author: "Sarah H. Wu (sarwu\@stanford.edu)" date:
-"`r format(Sys.time(), '%B %d, %Y')`" 
----
 
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ## Introduction
 
 Despite the idiosyncracies of individual technological developments, there
-is a fundamental human panic about new technologies. In the 1800s, novels were accused of corrupting the minds of youth and housewives, in the 1940s "television addiction" was coined, and in current discourse smartphones and social media are the supposed culprits behind adolescents' declining mental health. (See https://pessimistsarchive.org/ for more examples.) Because my research investigates people's
+is a fundamental human panic about new technologies. In the 1800s, novels were accused of corrupting the minds of youth and housewives, in the 1940s "television addiction" was coined, and in current discourse smartphones and social media are the supposed culprits behind adolescents' declining mental health. (See [Pessimists Archive](https://pessimistsarchive.org/) for more examples.) Because my research investigates people's
 perceptions of digital media, I found Smiley & Fisher (2022) relevant because it
 probes a potential mechanism underlying cycles of tech panic:
 status quo bias, which has been documented across domains and developmental stages. In their Study 1, Smiley and Fisher (2022) experimentally manipulated participants' age at the time of an
@@ -31,7 +32,7 @@ The stimuli for this experiment are descriptions of an obscure technology called
 
 The experiment seems relatively straightforward to replicate. However, as with any online study, it is possible that participants might look up details about the stimuli during the study, which could render the manipulation ineffective. Because aerogel is a real invention, people could easily find its actual date of invention.
 
-Original paper here: https://github.com/psych251/smiley2022/blob/main/original_paper/smiley-fisher-2022-the-golden-age-is-behind-us-how-the-status-quo-impacts-the-evaluation-of-technology.pdf
+Original paper [here.](https://github.com/psych251/smiley2022/blob/main/original_paper/smiley-fisher-2022-the-golden-age-is-behind-us-how-the-status-quo-impacts-the-evaluation-of-technology.pdf)
 
 ## Methods
 
