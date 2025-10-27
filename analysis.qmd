@@ -14,7 +14,7 @@ if(!require("svglite")) {install.packages("svglite"); require("svglite")}
 
 ```{r}
 #### Experiment 1 - Aerogel (S1) #### ------------------------------------------------------
-s1.df <- read_csv(file = "pilot_a.csv") %>% 
+s1.df <- read_csv(file = "data/pilot_a.csv") %>% 
   filter(DistributionChannel=="preview") %>% 
   rename(Condition=FL_9_DO,
          Eval = attitude)
