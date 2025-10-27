@@ -1,3 +1,20 @@
+---
+title: "Psych 251: Pilot Progress Check 1"
+author: "Sarah Wu"
+date: "Oct. 26, 2025"
+format:
+  html:
+    toc: true
+---
+
+# Analysis of Pilot A data
+
+Most of the code is taken from Smiley and Fisher's (2022) OSF site. I adapted it slightly to fit the Qualtrics survey I implemented. 
+
+The link to the Qualtrics preview is [here.](https://stanforduniversity.qualtrics.com/jfe/preview/previewId/95af45c0-8735-46de-bbad-38bd3f1a6d15/SV_ahlhnHc1n0Mfmqq?Q_CHL=preview&Q_SurveyVersionID=current) 
+
+### Load libraries
+
 ```{r}
 ### Install (if not already installed) and load all packages
 if(!require("psych")) {install.packages("psych"); require("psych")}
@@ -11,7 +28,6 @@ if(!require("sjPlot")) {install.packages("sjPlot"); require("sjPlot")}
 if(!require("svglite")) {install.packages("svglite"); require("svglite")}
 ```
 
-The link to the Qualtrics preview is here: https://stanforduniversity.qualtrics.com/jfe/preview/previewId/95af45c0-8735-46de-bbad-38bd3f1a6d15/SV_ahlhnHc1n0Mfmqq?Q_CHL=preview&Q_SurveyVersionID=current
 
 ```{r}
 #### Experiment 1 - Aerogel (S1) #### ------------------------------------------------------
@@ -69,7 +85,7 @@ t.test(Eval ~ Condition, var.equal=TRUE, data=s1.df.f)
 effsize::cohen.d(Eval ~ Condition, data = s1.df.f)
 
 ## Age and Evaluation correlation
-cor.test(s1.df.f$Age, s1.df.f$Eval)
+cor.test(s1.df.f$age, s1.df.f$Eval)
 
 ## Make Condition.Num numeric so it can be scaled in lm
 s1.df.f$Condition.Num <- rep(NA, length(s1.df.f$Condition))
