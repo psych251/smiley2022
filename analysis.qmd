@@ -14,24 +14,32 @@ if(!require("svglite")) {install.packages("svglite"); require("svglite")}
 
 ```{r}
 #### Experiment 1 - Aerogel (S1) #### ------------------------------------------------------
-s1.df <- read.csv(file = "TechAgeS1.csv")
+s1.df <- read_csv(file = "pilot_a.csv") %>% 
+  filter(DistributionChannel=="preview") %>% 
+  rename(Condition=FL_9_DO,
+         Eval = attitude)
 
 ### DATA WRANGLING & CLEANING ###
 
 ## Participant Info
-s1.df$Gender <- factor(s1.df$Gender,labels=c("Male","Female","Other"))
+s1.df$gender <- factor(s1.df$gender,labels=c("Male","Female","Other"))
 names(s1.df)[1] <- "Subject"
+
+s1.df$age <- as.numeric(s1.df$age)
+s1.df$Eval <- as.numeric(s1.df$Eval)
 
 ### END DATA WRANGLING & CLEANING ###
 
 ## Demographic information
-table(s1.df$Gender)
-mean(s1.df$Age)
-sd(s1.df$Age)
+table(s1.df$gender)
+mean(s1.df$age)
+sd(s1.df$age)
 
 ### Analysis WITHOUT exclusions ###
 ## Descriptive statistics
-s1.cond.difs <- s1.df %>% group_by(Condition) %>% summarise(EVAL = mean(Eval), EVAL_SD = sd(Eval))
+s1.cond.difs <- s1.df %>% 
+  group_by(Condition) %>% 
+  summarize(EVAL = mean(Eval), EVAL_SD = sd(Eval))
 s1.cond.difs
 
 ## T-test and Cohen's d
@@ -43,10 +51,13 @@ effsize::cohen.d(Eval ~ Condition, data = s1.df)
 
 ### Analysis WITH exclusions ###
 ## Exclusion
-table(s1.df$Check) # n = 39
-table(s1.df$Knowledge) # n = 33
+table(s1.df$attn_check_1) # 
+table(s1.df$attn_check_2)
+table(s1.df$prior_knowledge) # 
 # Exclude participants who failed manipulation check or knew what aerogel was
-s1.df.f <- s1.df %>% filter(Check == "Pass" & Knowledge > 1)
+s1.df.f <- s1.df %>% 
+  filter(attn_check_1 == "3" & attn_check_2 == "2") %>% 
+  filter(prior_knowledge != "1")
 
 ## Descriptive statistics
 s1.cond.difs <- s1.df.f %>% group_by(Condition) %>% summarise(EVAL = mean(Eval), EVAL_SD = sd(Eval))
@@ -61,11 +72,11 @@ cor.test(s1.df.f$Age, s1.df.f$Eval)
 
 ## Make Condition.Num numeric so it can be scaled in lm
 s1.df.f$Condition.Num <- rep(NA, length(s1.df.f$Condition))
-s1.df.f$Condition.Num[s1.df.f$Condition=="Born After"] <- 0
-s1.df.f$Condition.Num[s1.df.f$Condition=="Born Before"] <- 1
+s1.df.f$Condition.Num[s1.df.f$Condition=="BornAfter"] <- 0
+s1.df.f$Condition.Num[s1.df.f$Condition=="BornBefore"] <- 1
 
 ## Age and Condition multilevel model
-s1.lm.age <- lm(scale(Eval) ~ scale(Age) + scale(Condition.Num), data = s1.df.f)
+s1.lm.age <- lm(scale(Eval) ~ scale(age) + scale(Condition.Num), data = s1.df.f)
 summary(s1.lm.age)
 ```
 
