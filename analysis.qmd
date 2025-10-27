@@ -11,6 +11,7 @@ if(!require("sjPlot")) {install.packages("sjPlot"); require("sjPlot")}
 if(!require("svglite")) {install.packages("svglite"); require("svglite")}
 ```
 
+The link to the Qualtrics preview is here: https://stanforduniversity.qualtrics.com/jfe/preview/previewId/95af45c0-8735-46de-bbad-38bd3f1a6d15/SV_ahlhnHc1n0Mfmqq?Q_CHL=preview&Q_SurveyVersionID=current
 
 ```{r}
 #### Experiment 1 - Aerogel (S1) #### ------------------------------------------------------
