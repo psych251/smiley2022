@@ -78,7 +78,16 @@ s1.df.f <- s1.df %>%
 
 ## Descriptive statistics
 s1.cond.difs <- s1.df.f %>% group_by(Condition) %>% summarise(EVAL = mean(Eval), EVAL_SD = sd(Eval))
-s1.cond.difs
+
+ggplot(s1.cond.difs, aes(x=Condition, y=EVAL, fill=Condition)) +
+  geom_col() +
+  geom_errorbar(aes(ymin = EVAL - EVAL_SD, ymax = EVAL + EVAL_SD), width = 0.2) +
+  ylim(c(-3, 3)) +
+  labs(y="Evaluation of Aerogel") +
+  scale_x_discrete(labels = c("BornAfter" = "Born After",
+                              "BornBefore" = "Born Before")) +
+  theme_apa() +
+  theme(legend.position = "none")
 
 ## T-test and Cohen's d 
 t.test(Eval ~ Condition, var.equal=TRUE, data=s1.df.f)
