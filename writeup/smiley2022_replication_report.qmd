@@ -38,14 +38,11 @@ Original paper [here.](https://github.com/psych251/smiley2022/blob/main/original
 
 ### Power Analysis
 
-Original effect size, power analysis for samples to achieve 80%, 90%,
-95% power to detect that effect size. Considerations of feasibility for
-selecting planned sample size.
+The original effect size from Smiley and Fisher (2022) was *d* = .25. As in the original paper, I aimed for 80% power with a medium effect size of *d* = .3. 
 
 ### Planned Sample
 
-Planned sample size and/or termination rule, sampling frame, known
-demographics if any, preselection rules if any.
+The planned sample size is 400 participants, using a representative sample based on US census data. 
 
 ### Materials
 
