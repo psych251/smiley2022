@@ -12,129 +12,588 @@ editor:
     wrap: 72
 ---
 
-
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ## Introduction
 
-Despite the idiosyncracies of individual technological developments, there
-is a fundamental human panic about new technologies. In the 1800s, novels were accused of corrupting the minds of youth and housewives, in the 1940s "television addiction" was coined, and in current discourse smartphones and social media are the supposed culprits behind adolescents' declining mental health. (See [Pessimists Archive](https://pessimistsarchive.org/) for more examples.) Because my research investigates people's
-perceptions of digital media, I found Smiley & Fisher (2022) relevant because it
-probes a potential mechanism underlying cycles of tech panic:
-status quo bias, which has been documented across domains and developmental stages. In their Study 1, Smiley and Fisher (2022) experimentally manipulated participants' age at the time of an
-obscure technology's invention (15 years before vs. after the invention
-of the technology) and measured participants' self-reported perceptions
-of the technology's societal impact. Smiley and Fisher (2022) found that
-participants in the born-after condition evaluated the technology more
-positively than those in the born-before condition.
+Despite the idiosyncracies of individual technological developments,
+there is a fundamental human panic about new technologies. In the 1800s,
+novels were accused of corrupting the minds of youth and housewives, in
+the 1940s "television addiction" was coined, and in current discourse
+smartphones and social media are the supposed culprits behind
+adolescents' declining mental health. (See [Pessimists
+Archive](https://pessimistsarchive.org/) for more examples.) Because my
+research investigates people's perceptions of digital media, I found
+Smiley & Fisher (2022) relevant because it probes a potential mechanism
+underlying cycles of tech panic: status quo bias, which has been
+documented across domains and developmental stages. In their Study 1,
+Smiley and Fisher (2022) experimentally manipulated participants' age at
+the time of an obscure technology's invention (15 years before vs. after
+the invention of the technology) and measured participants'
+self-reported perceptions of the technology's societal impact. Smiley
+and Fisher (2022) found that participants in the born-after condition
+evaluated the technology more positively than those in the born-before
+condition.
 
-The stimuli for this experiment are descriptions of an obscure technology called aerogel, "a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure." The authors selected this technology because it was possible to manipulate its perceived age without too many participants knowing its actual date of invention. In the born-before condition, participants were told that aerogel was invented 15 years after they had been born, with the exact year dynamically populated based on the participant's birth year. (For example, a participant born in 2000 would read that aerogel was invented in 2015.) In the born-after condition, participants were told that aerogel had been invented 15 years prior to their birth. (So a participant born in 2000 would see that aerogel was invented in 1985.) After reading about aerogel, participants were asked, "How would you describe the impact of aerogel on society?" and reported their impression on a 7-point Likert scale from -3 (very negative) to 3 (very positive). Then, they answered a manipulation check question and a previous knowledge question.
+The stimuli for this experiment are descriptions of an obscure
+technology called aerogel, "a synthetic porous ultralight material
+derived from a gel, in which the liquid component for the gel has been
+replaced with a gas without significant collapse of the gel structure."
+The authors selected this technology because it was possible to
+manipulate its perceived age without too many participants knowing its
+actual date of invention. In the born-before condition, participants
+were told that aerogel was invented 15 years after they had been born,
+with the exact year dynamically populated based on the participant's
+birth year. (For example, a participant born in 2000 would read that
+aerogel was invented in 2015.) In the born-after condition, participants
+were told that aerogel had been invented 15 years prior to their birth.
+(So a participant born in 2000 would see that aerogel was invented in
+1985.) After reading about aerogel, participants were asked, "How would
+you describe the impact of aerogel on society?" and reported their
+impression on a 7-point Likert scale from -3 (very negative) to 3 (very
+positive). Then, they answered a manipulation check question and a
+previous knowledge question.
 
-The experiment seems relatively straightforward to replicate. However, as with any online study, it is possible that participants might look up details about the stimuli during the study, which could render the manipulation ineffective. Because aerogel is a real invention, people could easily find its actual date of invention.
+The experiment seems relatively straightforward to replicate. However,
+as with any online study, it is possible that participants might look up
+details about the stimuli during the study, which could render the
+manipulation ineffective. Because aerogel is a real invention, people
+could easily find its actual date of invention.
 
-Original paper [here.](https://github.com/psych251/smiley2022/blob/main/original_paper/smiley-fisher-2022-the-golden-age-is-behind-us-how-the-status-quo-impacts-the-evaluation-of-technology.pdf)
+Original paper
+[here.](https://github.com/psych251/smiley2022/blob/main/original_paper/smiley-fisher-2022-the-golden-age-is-behind-us-how-the-status-quo-impacts-the-evaluation-of-technology.pdf)
 
 ## Methods
 
 ### Power Analysis
 
-The original effect size from Smiley and Fisher (2022) was *d* = .25. As in the original paper, I aimed for 80% power with a medium effect size of *d* = .3. 
+The original effect size from Smiley and Fisher (2022) was *d* = .25. As
+in the original paper, I aimed for 80% power with a medium effect size
+of *d* = .3. G\*Power confirmed that this would take at least 176
+participants in each condition.
 
 ### Planned Sample
 
-The planned sample size is 400 participants, using a representative sample based on US census data. 
+The planned sample size is 400 participants, using a representative
+sample based on US census data.
 
 ### Materials
 
-All materials - can quote directly from original article - just put the
-text in quotations and note that this was followed precisely. Or, quote
-directly and just point out exceptions to what was described in the
-original article.
+The materials and procedure were followed precisely.
+
+"To begin, participants provided demographic information: age, gender,
+and level of education. Next, participants were told, “Aerogel (pictured
+above) \[see Section S1 in the Supplemental Material at
+https://osf.io/bxjnr\] is a synthetic porous ultralight material derived
+from a gel, in which the liquid component for the gel has been replaced
+with a gas without significant collapse of the gel structure.” This
+technology was selected because, though real, it is largely unknown,
+making it possible to manipulate its perceived age."
 
 ### Procedure
 
-Can quote directly from original article - just put the text in
-quotations and note that this was followed precisely. Or, quote directly
-and just point out exceptions to what was described in the original
-article.
+From the original paper: "Participants were randomly assigned to the
+born-before or born-after condition. In the born-before condition,
+participants were next told that aerogel was invented 15 years after
+they had been born. We dynamically presented the invention date based on
+each participant’s age. For example, a participant born in 1980 would
+see, “It was invented in 1995 and is now widely used.” In the born-after
+condition, participants were told that aerogel had been invented 15
+years before they were born. For example, a participant born in 1980
+would see, “It was invented in 1965 and is now widely used.” After
+viewing this information, all participants were asked, “How would you
+describe the impact of aerogel on society?” and responded on a 7-point
+Likert scale ranging from −3 (very negative) to 3 (very positive).
+Finally, as a manipulation check, participants were asked, “Was aerogel
+invented before or after the year you were born?” (before/after), and a
+previous knowledge question asked, “Did you know about aerogel prior to
+completing this survey?” (yes/no)."
 
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively
-for an analysis strategy section. The key is to report an analysis
-strategy that is as close to the original - data cleaning rules, data
-exclusion rules, covariates, etc. - as possible.
+The key analysis of interest is an unpaired t-test comparing evaluations
+of aerogel in the born-before and born after conditions. Like the
+original paper, we will compare the size of the effect with and without
+exclusions based on the manipulation check and prior knowledge about
+aerogel.
 
-**Clarify key analysis of interest here** You can also pre-specify
-additional analyses you plan to do.
+In line with the original paper, we will also conduct a zero-order
+correlation to test a competing hypothesis: that people simply prefer
+older technology. By this account, older people would tend to have more
+positive evaluations because aerogel was described as especially old
+(either 15 years before or after their birth).
 
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and
-analysis plan from original study. The goal, of course, is to minimize
-those differences, but differences will inevitably occur. Also, note
-whether such differences are anticipated to make a difference based on
-claims in the original article or subsequent published research on the
-conditions for obtaining the effect.
+The main difference between this replication study and the original
+study is that the original study used an MTurk sample, whereas we used a
+Prolific sample. Prolific is generally recognized as having
+higher-quality participants (Douglas et al., 2023), but these
+differences are probably negligible given the ease of the task.
 
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data
-collection.
-
 #### Actual Sample
 
-Sample size, demographics, data exclusions based on rules spelled out in
-analysis plan
+My actual sample size was 394 after excluding participants who failed
+the initial attention check. Like Smiley and Fisher (2022), I also
+tracked who failed the manipulation check (N = 37) and who had prior
+knowledge of aerogel (N = 69), analyzing the data both with and without
+these exclusions.
 
 #### Differences from pre-data collection methods plan
 
-Any differences from what was described as the original plan, or “none”.
+None.
 
 ## Results
 
-### Data preparation
+### Pilot B: Data preparation
 
 Data preparation following the analysis plan.
 
-```{r include=F}
+```{r, echo=FALSE}
 ### Data Preparation
 
 #### Load Relevant Libraries and Functions
-
-#### Import data
-
-#### Data exclusion / filtering
-
-#### Prepare data for analysis - create columns etc.
+if(!require("psych")) {install.packages("psych"); require("psych")}
+if(!require("tidyverse")) {install.packages("tidyverse"); require("tidyverse")}
+if(!require("effsize")) {install.packages("effsize"); require("effsize")}
+if(!require("stats")) {install.packages("stats"); require("stats")}
+if(!require("ggpubr")) {install.packages("ggpubr"); require("ggpubr")}
+library(qualtRics)
+library(VennDiagram)
+library(grid)
+library(ggvenn)
+library(rstatix)
+library(interactions)
+library(patchwork)
+library(papaja)
+library(gtsummary)
 ```
 
-### Confirmatory analysis
+```{r}
+#### Impgrid#### Import data
+pilot_b <- read_csv("../data/pilot_b.csv") %>% 
+  drop_na(id) %>%  # Only include Prolific participants, not Pilot A participants
+  filter(DistributionChannel=="anonymous")
 
-The analyses as specified in the analysis plan.
 
-*Side-by-side graph with original graph is ideal here*
+#### Data exclusion / filtering
+pilot_b_recoded <- pilot_b %>% 
+  rename(Condition=FL_9_DO,
+         Eval = attitude)
+
+### DATA WRANGLING & CLEANING ###
+
+## Participant Info
+pilot_b_recoded$gender <- factor(pilot_b_recoded$gender, levels = c("1", "2"), labels=c("Male","Female"))
+
+
+pilot_b_recoded$age <- as.numeric(pilot_b_recoded$age)
+pilot_b_recoded$Eval <- as.numeric(pilot_b_recoded$Eval)
+
+### END DATA WRANGLING & CLEANING ###
+
+## Demographic information
+table(pilot_b_recoded$gender)
+mean(pilot_b_recoded$age)
+sd(pilot_b_recoded$age)
+
+```
+
+### Pilot B: Confirmatory analysis
+
+```{r}
+### Analysis WITHOUT exclusions ###
+## Descriptive statistics
+s1.cond.difs <- pilot_b_recoded %>% 
+  group_by(Condition) %>% 
+  summarize(EVAL = mean(Eval), EVAL_SD = sd(Eval))
+s1.cond.difs
+
+## T-test and Cohen's d
+## Condition refers to born after/before invention (experimentally manipulated)
+t.test(Eval ~ Condition, var.equal=TRUE, data=pilot_b_recoded)
+effsize::cohen.d(Eval ~ Condition, data = pilot_b_recoded)
+
+# Pearson's correlation
+cor.test(pilot_b_recoded$age, pilot_b_recoded$Eval)
+
+### END Analysis WITHOUT exclusions
+
+### Analysis WITH exclusions ###
+## Exclusion
+table(pilot_b_recoded$attn_check_1) # 
+table(pilot_b_recoded$attn_check_2)
+table(pilot_b_recoded$prior_knowledge) # 
+# Exclude participants who failed manipulation check or knew what aerogel was
+s1.df.f <- pilot_b_recoded %>% 
+  filter(attn_check_1 == "3" & attn_check_2 == "2") %>% 
+  filter(prior_knowledge != "1")
+
+## Descriptive statistics
+s1.cond.difs <- s1.df.f %>% 
+  group_by(Condition) %>% 
+  summarise(EVAL = mean(Eval), EVAL_SD = sd(Eval))
+
+s1.cond.difs
+```
+
+```{r}
+
+## T-test and Cohen's d 
+t.test(Eval ~ Condition, var.equal=TRUE, data=s1.df.f)
+effsize::cohen.d(Eval ~ Condition, data = s1.df.f)
+
+## Age and Evaluation correlation
+cor.test(s1.df.f$age, s1.df.f$Eval)
+
+## Make Condition.Num numeric so it can be scaled in lm
+s1.df.f$Condition.Num <- rep(NA, length(s1.df.f$Condition))
+s1.df.f$Condition.Num[s1.df.f$Condition=="AerogelBornAfter"] <- 0
+s1.df.f$Condition.Num[s1.df.f$Condition=="AerogelBornBefore"] <- 1
+
+## Age and Condition multilevel model
+s1.lm.age <- lm(scale(Eval) ~ scale(age) + scale(Condition.Num), data = s1.df.f)
+summary(s1.lm.age)
+
+```
+
+### Full Dataset: Data Preparation
+
+```{r, echo=FALSE}
+full_sample <- fetch_survey(surveyID = "SV_ahlhnHc1n0Mfmqq",
+                            label = TRUE,
+                            convert=FALSE,
+                            start_date = "2025-12-01 21:13:39")
+```
+
+```{r}
+full_sample_conditions <- full_sample %>% 
+  mutate(Condition = if_else(is.na(FL_9_DO_AerogelBornBefore), "Born-After", "Born-Before")) %>%  # Create condition column 
+  filter(attn_check_1 == "50" & attn_check_2 == "Her mother") %>% # Filter out those who failed attention check and didn't get to finish
+  filter(Finished==1) %>% 
+  mutate(
+    attitude_num = as.numeric(str_extract(attitude, "^[^a-zA-Z]+"))
+  ) %>% 
+  relocate(attitude_num, .after = attitude)
+  
+```
+
+### Demographics
+
+```{r}
+
+demographics_table <- full_sample_conditions %>%
+  tbl_summary(
+    include = c(age, gender),            # Variables to include
+    label = list(
+      age ~ "Age (Years)",               # Custom Label for Age
+      gender ~ "Gender Identity"         # Custom Label for Gender
+    ),
+    statistic = list(
+      all_continuous() ~ "{mean} ({sd})", # Default is Median (IQR); change to Mean (SD)
+      all_categorical() ~ "{n} ({p}%)"    # Count and Percentage
+    ),
+    digits = all_continuous() ~ 1        # Round continuous stats to 1 decimal place
+  ) %>%
+  add_n() %>%                            # Add column with total N
+  gtsummary::modify_header(label = "**Variable**")  # Rename the stub header
+
+# 3. Print the table
+demographics_table
+```
+
+```{r}
+### Analysis WITHOUT exclusions ###
+## Descriptive statistics
+condition_diffs_no_exclusion <- full_sample_conditions %>% 
+  group_by(Condition) %>% 
+  get_summary_stats(attitude_num, type="mean_ci")
+condition_diffs_no_exclusion
+
+full_sample_conditions %>% 
+  group_by(Condition) %>% 
+  get_summary_stats(attitude_num, type="mean_sd")
+
+## T-test and Cohen's d
+## Condition refers to born after/before invention (experimentally manipulated)
+without_exclusions <- t.test(attitude_num ~ Condition, var.equal=TRUE, data=full_sample_conditions)
+effsize::cohen.d(attitude_num ~ Condition, data = full_sample_conditions)
+without_exclusions_apa <- apa_print(without_exclusions)
+
+# Pearson's correlation
+cor.test(full_sample_conditions$age, full_sample_conditions$attitude_num)
+
+# Distribution of ages
+ggplot(full_sample_conditions, aes(x=age)) +
+  geom_histogram(binwidth=5, color="white") +
+  ylim(c(0,60)) +
+  labs(x="Age") +
+  jtools::theme_apa()
+```
+
+Participants in the born-before condition evaluated aerogel no more
+favorably than participants in the born-after condition,
+`r without_exclusions_apa$full_result`
+
+```{r}
+# Exclude participants who failed manipulation check or knew what aerogel was
+full_sample_exclusions <- full_sample_conditions %>% 
+  filter(manip_check == Condition) %>% # Their answer should match the condition to which they were assigned
+  filter(prior_knowledge != "Yes") # They should not know what aerogel is
+
+## Descriptive statistics
+condition_diffs_exclusions <- full_sample_exclusions %>% 
+  group_by(Condition) %>% 
+  get_summary_stats(attitude_num, type="mean_ci")
+
+condition_diffs_exclusions
+
+## T-test and Cohen's d 
+with_exclusions <- t.test(attitude_num ~ Condition, var.equal=TRUE, data=full_sample_exclusions)
+with_exclusions_apa <- papaja::apa_print(with_exclusions)
+effsize::cohen.d(attitude_num ~ Condition, data = full_sample_exclusions)
+
+## Age and Evaluation correlation
+cor.test(full_sample_exclusions$age, full_sample_exclusions$attitude_num)
+```
+
+In line with Smiley and Fisher (2022), I also analyzed the data after
+excluding participants who failed the manipulation check or had prior
+knowledge of aerogel.
+
+Still, participants in the born-before condition evaluated aerogel no
+more favorably than those in the born-after condition,
+`r with_exclusions_apa$full_result`
+
+```{r}
+# Visualizations for original study
+original_data <- read_csv("../data/TechAgeS1.csv")
+
+
+
+ggplot(original_data, aes(x=Age)) +
+  geom_histogram(binwidth=5, color="white") +
+  jtools::theme_apa()
+
+# Run stats
+stat.test <- original_data %>% 
+  t_test(Eval ~ Condition) %>% 
+  add_significance() %>% 
+  add_xy_position(x = "Condition")
+
+smiley2022_plot <- original_data %>%
+  group_by(Condition) %>% 
+  get_summary_stats(Eval, type="mean_ci") %>% 
+  ggplot(aes(x=Condition, y=mean, color=Condition)) +
+  geom_point(size=3) +
+  geom_errorbar(aes(ymin = mean - ci, ymax = mean + ci), width = 0.2) +
+  geom_text(aes(label = paste0("italic(N) == ", n), y = mean + ci + 0.3), 
+            parse=TRUE,
+            color = "black", 
+            size = 4) +
+  ggpubr::stat_pvalue_manual(stat.test, 
+                     label = "p.signif", # Uses stars (*, **, ns)
+                     y.position = 3.2,   # Adjust height
+                     color = "black") +
+  scale_y_continuous(limits = c(-3, 3.5), breaks = seq(-3, 3, 1)) +
+  scale_color_manual(values=c("steelblue", "orange")) +
+  labs(y="Evaluation of Aerogel",
+       title= "Smiley & Fisher (2022)") +
+  jtools::theme_apa() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(size = 12),
+        plot.title = element_text(hjust=.5)) 
+
+stat.test.exclusions <- original_data %>% 
+  filter(Check=="Pass" & Knowledge==2) %>% 
+  rstatix::t_test(Eval ~ Condition) %>% 
+  add_significance() %>% 
+  add_xy_position(x = "Condition")
+
+original_data %>%
+  filter(Check=="Pass" & Knowledge==2) %>% 
+  group_by(Condition) %>% 
+  get_summary_stats(Eval, type="mean_ci") %>% 
+  ggplot(aes(x=Condition, y=mean, color=Condition)) +
+  geom_point(size=3) +
+  geom_errorbar(aes(ymin = mean - ci, ymax = mean + ci), width = 0.2) +
+  geom_text(aes(label = paste0("italic(N) == ", n), y = mean + ci + 0.3), 
+            parse=TRUE,
+            color = "black", 
+            size = 4) +
+  ggpubr::stat_pvalue_manual(stat.test.exclusions, 
+                     label = "p.signif", # Uses stars (*, **, ns)
+                     y.position = 3.2,   # Adjust height
+                     color = "black") +
+  scale_y_continuous(limits = c(-3, 3.5), breaks = seq(-3, 3, 1)) +
+  scale_color_manual(values=c("steelblue", "orange")) +
+  labs(y="Evaluation of Aerogel") +
+  jtools::theme_apa() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(size = 12))
+```
+
+```{r}
+# Visualizations for my replication study
+replication_plot <- ggplot(condition_diffs_no_exclusion, aes(x=Condition, y=mean, color=Condition)) +
+  geom_point(size=3) +
+  geom_errorbar(aes(ymin = mean - ci, ymax = mean + ci), width = 0.2) +
+  geom_text(aes(label = paste0("italic(N) == ", n), y = mean + ci + 0.3), 
+            parse=TRUE,
+            color = "black", 
+            size = 4) +
+  scale_y_continuous(limits = c(-3, 3), breaks = seq(-3, 3, 1)) +
+  scale_color_manual(values=c("steelblue", "orange")) +
+  labs(y="Evaluation of Aerogel",
+       title="Replication Attempt") +
+  jtools::theme_apa() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(size = 12),
+        plot.title = element_text(hjust=.5)) 
+
+ggplot(condition_diffs_exclusions, aes(x=Condition, y=mean, color=Condition)) +
+  geom_point(size=3) +
+  geom_errorbar(aes(ymin = mean - ci, ymax = mean + ci), width = 0.2) +
+  geom_text(aes(label = paste0("italic(N) == ", n), y = mean + ci + 0.3), 
+            parse=TRUE,
+            color = "black", 
+            size = 4) +
+  scale_y_continuous(limits = c(-3, 3), breaks = seq(-3, 3, 1)) +
+  scale_color_manual(values=c("steelblue", "orange")) +
+  labs(y="Evaluation of Aerogel") +
+  jtools::theme_apa() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(size = 12)) 
+
+
+
+## Make Condition.Num numeric so it can be scaled in lm
+full_sample_exclusions$Condition.Num <- rep(NA, length(full_sample_exclusions$Condition))
+full_sample_exclusions$Condition.Num[full_sample_exclusions$Condition=="Born-After"] <- 0
+full_sample_exclusions$Condition.Num[full_sample_exclusions$Condition=="Born-Before"] <- 1
+
+## Age and Condition multilevel model
+full_sample_exclusions.lm.age <- lm(scale(attitude_num) ~ scale(age) + scale(Condition.Num), data = full_sample_exclusions)
+summary(full_sample_exclusions.lm.age)
+```
+
+Neither condition nor age predicted attitudes toward aerogel.
+
+#### Side-by-side plots
+
+```{r}
+smiley2022_plot + replication_plot
+```
 
 ### Exploratory analyses
 
-Any follow-up analyses desired (not required).
+What are the characteristics of those who knew aerogel vs. those who did
+not?
+
+```{r}
+# Education
+full_sample_conditions %>% 
+  group_by(education) %>% 
+  count(prior_knowledge) %>% 
+  mutate(prop=n/sum(n))
+
+# Age
+full_sample_conditions %>% 
+  group_by(prior_knowledge) %>% 
+  get_summary_stats(age, type="mean_sd")
+
+full_sample_conditions %>% 
+  group_by(prior_knowledge) %>% 
+  get_summary_stats(`Duration (in seconds)`, type="mean_sd")
+```
+
+```{r}
+# Examine potential overlap in the people who failed the manipulation check and those who knew aerogel
+failed_manip <- full_sample_conditions %>% 
+    filter(manip_check != Condition) 
+
+knew_aerogel <- full_sample_conditions %>% 
+  filter(prior_knowledge =="Yes")
+
+
+ggvenn(list(
+    "Failed Manipulation Check" = failed_manip$ResponseId, 
+    "Knew About Aerogel" = knew_aerogel$ResponseId),
+    set_name_size = 4,
+    fill_color = c("darkred", "turquoise"))
+```
+
+```{r}
+# Examine potential interaction between condition and age
+ggplot(original_data, aes(x = Age, y = Eval, color = Condition)) +
+  geom_point(alpha = 0.3) + # Raw data points
+  geom_smooth(method = "lm", se = TRUE) + # Trend lines
+  scale_color_manual(values=c("steelblue", "orange")) +
+  labs(x="Age",
+       y="Evaluation of Aerogel") +
+  jtools::theme_apa()
+
+# Test the interaction formally
+model_interaction <- lm(Eval ~ Condition * Age, data = original_data)
+
+# Check the summary for the "Condition:Age" term
+summary(model_interaction)
+
+ggplot(full_sample_conditions, aes(x = age, y = attitude_num, color = Condition)) +
+  geom_point(alpha = 0.3) + # Raw data points
+  geom_smooth(method = "lm", se = TRUE) + # Trend lines
+  scale_color_manual(values=c("steelblue", "orange")) +
+  labs(x ="Age",
+       y="Evaluation of Aerogel") +
+  jtools::theme_apa() 
+
+model_interaction_replication <- lm(attitude_num ~ Condition * age, data = full_sample_conditions)
+
+# Check the summary for the "Condition:Age" term
+summary(model_interaction_replication)
+```
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary
-result from the confirmatory analysis and the assessment of whether it
-replicated, partially replicated, or failed to replicate the original
-result.
+I failed to replicate the main finding from the original Study 1 from
+Smiley & Fisher (2022), which was that participants in the born-after
+condition had more favorable attitudes toward aerogel than participants
+in the born-before condition. Smiley and Fisher (2022) documented this
+effect both when they included participants who failed the manipulation
+check and had prior knowledge of aerogel AND when they excluded those
+participants. In my case, I did not find the effect in either case.
+
+In my study, I also had to exclude a greater number of participants
+because 38 participants failed the manipulation check and an additional
+60 participants knew about aerogel before the study (vs. only 33
+participants in the original study).
+
+For those participants who knew about aerogel, they may not have
+believed the information I presented to them about its year of
+invention.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from
-follow-up exploratory analysis, (b) assessment of the meaning of the
-replication (or not) - e.g., for a failure to replicate, are the
-differences between original and present study ones that definitely,
-plausibly, or are unlikely to have been moderators of the result, and
-(c) discussion of any objections or challenges raised by the current and
-original authors about the replication attempt. None of these need to be
-long.
+The fact that I failed to replicate the effect could have been due to a
+few reasons: (1) the effect does not exist, (2) my manipulation of year
+of aerogel invention was not as obvious as the original authors', (3) my
+study was underpowered to detect an effect. My final sample size was
+297, which is substantially smaller than the planned sample size.
+
+On point (3), I noticed that the original authors were also underpowered
+in their post-exclusion analysis of the effect of year of invention.
+They determined they needed 176 participants per condition (352 total)
+to detect a medium effect with 80% power, but after their exclusions
+they had a total sample size of 328.
+
+On a broader note, this (non) replication has reinforced the notion of
+"playing 20 questions with nature" (Almaatouq et al., 2024). When an
+effect cannot be replicated, it's difficult to tell if it's because the
+replication involved a slightly different population/paradigm or because
+the effect doesn't actually exist. Are we all just touching different
+parts of the elephant? (And what is enough to constitute "different" in
+the context of any experiment?)
